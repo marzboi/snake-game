@@ -6,7 +6,6 @@ STARTING_POSITION = [(0, 0), (-20, 0), (-40, 0)]
 class Snake:
     def __init__(self):
         self.snake = []
-        self.initial_x = 0
         self.create_snake()
         self.head = self.snake[0]
 
